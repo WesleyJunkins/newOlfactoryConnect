@@ -1,0 +1,27 @@
+{
+  "name": "newolfactoryconnect",
+  "version": "1.0.0",
+  "description": "A new olfactory connect interface using electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyJunkins/newOlfactoryConnect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesleyJunkins/newOlfactoryConnect/issues"
+  },
+  "homepage": "https://github.com/WesleyJunkins/newOlfactoryConnect#readme",
+  "devDependencies": {
+    "electron": "^36.3.1"
+  },
+  "dependencies": {
+    "mqtt": "^5.13.0"
+  }
+}
