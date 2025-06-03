@@ -3,13 +3,12 @@ module.exports = {
         // Broker connection settings
         brokerUrl: 'wss://688c27c3f6514933b27cbc21d4bcb750.s1.eu.hivemq.cloud:8884/mqtt', // Your HiveMQ broker URL
         clientId: `electron-mqtt-${Math.random().toString(16).slice(3)}`, // Unique client ID
-        username: 'Wesj1234', // Add your username if required
-        password: 'Wesj1234', // Add your password if required
+        username: 'Wesj1234+desktop', // Add your username if required
+        password: 'Wesj1234+desktop', // Add your password if required
         
         // Default topics
         defaultTopics: {
-            subscribe: 'desktop/inbox',
-            publish: 'desktop/outbox'
+            subscribe: 'pi/outbox',
         },
         
         // Connection options
